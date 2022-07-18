@@ -27,7 +27,8 @@
     &__menu {
         display: flex;
         flex: 1;  
-        cursor: pointer;      
+        cursor: pointer;  
+           
 
         &__item {
             display: flex;
@@ -35,6 +36,8 @@
             align-items: center;
             color: $color-white;
             padding: 0 16px;
+            text-decoration: none; 
+
             
             img {
                 height: 20px;

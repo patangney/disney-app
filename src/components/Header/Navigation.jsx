@@ -6,28 +6,28 @@ const Navigation = () => {
     <div className='nav'>      
         <img className='nav__logo' src='/assets/images/logo.svg' />
         <div className='nav__menu'>
-          <a className='nav__menu__item'>
-            <img src='/assets/images/home-icon.svg' />
+          <a href='#' className='nav__menu__item'>
+            <img src='/assets/images/home-icon.svg' alt='home' />
             <span>Home</span>
           </a>
-          <a className='nav__menu__item'>
-            <img src='/assets/images/search-icon.svg' />
+          <a  href='#' className='nav__menu__item'>
+            <img src='/assets/images/search-icon.svg' alt='search' />
             <span>Search</span>
           </a>
-          <a className='nav__menu__item'>
-            <img src='/assets/images/watchlist-icon.svg' />
+          <a href='#' className='nav__menu__item'>
+            <img src='/assets/images/watchlist-icon.svg' alt='watchlist' />
             <span>Watchlist</span>
           </a>
-          <a className='nav__menu__item'>
-            <img src='/assets/images/original-icon.svg' />
+          <a href='#' className='nav__menu__item'>
+            <img src='/assets/images/original-icon.svg' alt='originals' />
             <span>Originals</span>
           </a>
-          <a className='nav__menu__item'>
-            <img src='/assets/images/movie-icon.svg' />
+          <a  href='#' className='nav__menu__item'>
+            <img src='/assets/images/movie-icon.svg' alt='movie' />
             <span>Movie</span>
           </a>
-          <a className='nav__menu__item'>
-            <img src='/assets/images/series-icon.svg' />
+          <a  href='#' className='nav__menu__item'>
+            <img src='/assets/images/series-icon.svg' alt='series' />
             <span>Series</span>
           </a>
         </div>
