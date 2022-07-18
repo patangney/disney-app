@@ -1,0 +1,21 @@
+.nav {
+    height: 70px;
+    background-color: $primary-bg;
+    display: flex;
+
+
+    &__logo  {
+        width: 80px;
+        background-color: $primary-bg;
+
+    }
+
+    &__menu {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        height: 100%;
+        padding: 0 20px;
+    }
+
+}
