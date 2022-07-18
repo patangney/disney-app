@@ -19,6 +19,9 @@ const ImageSlider = () => {
         <div className='slider__wrapper'>
           <img src='/assets/images/slider-badging.jpg' alt='slider' />
         </div>
+        <div className='slider__wrapper'>
+          <img src='/assets/images/slider-badag.jpg' alt='slider' />
+        </div>
       </Slider>
     </div>
   )
