@@ -1,7 +1,7 @@
 .nav {    
     background-color: $primary-bg;  
     display: flex;
-    height: 70px;
+    height: $header-height;
 
     &__user {
         display: flex;

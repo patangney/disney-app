@@ -1,13 +1,15 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import {Header, Home} from './components/index.js';
 
 
 function App() {
   return (
-    <div className="App">
+    <Fragment>
+
       <Header />
       <Home />
-    </div>
+    
+    </Fragment>
   );
 }
 

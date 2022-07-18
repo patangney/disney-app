@@ -1,8 +1,13 @@
-import React from 'react'
+import React, {Fragment} from 'react'
 
 function Home() {
   return (
-    <div>Home</div>
+    <Fragment>
+      <main>
+        <>Home</>
+
+      </main>
+    </Fragment>
   )
 }
 
