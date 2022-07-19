@@ -4,9 +4,9 @@ import {ImageSlider, Viewers} from '../index.js'
 function Home() {
   return (
     <Fragment>
-      <main>
+      <main className='main'>
         <ImageSlider />
-
+        <Viewers />
       </main>
     </Fragment>
   )

@@ -1,6 +1,6 @@
 .nav {    
     background-color: $primary-bg;  
-    display: flex;
+    display: flex;    
     height: $header-height;
 
     &__user {
@@ -22,6 +22,7 @@
         width: auto;
         height: 70px;      
         padding: 0 36px; 
+
 
     }
 
