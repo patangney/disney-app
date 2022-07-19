@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react'
-import {ImageSlider, Viewers} from '../index.js'
+import {ImageSlider, Viewers, Movies} from '../index.js'
 
 function Home() {
   return (
@@ -7,6 +7,7 @@ function Home() {
       <main className='main'>
         <ImageSlider />
         <Viewers />
+        <Movies />
       </main>
     </Fragment>
   )

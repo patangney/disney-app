@@ -1,0 +1,32 @@
+.movies {
+
+    &__container {
+
+        &__content {
+            display: grid;
+            grid-gap: 25px;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+
+
+            &__item {
+                border-radius: 10px;
+                overflow: hidden;
+                @include border(3px);
+                @include box-shadow;   
+                @include transition;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                    object-fit: cover;
+                }
+
+                &:hover {
+                    @include hover; 
+    
+                }
+            }
+
+        }
+    }
+}
