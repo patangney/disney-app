@@ -5,12 +5,19 @@ const Viewers = () => {
     <div className='viewers'>
       <div className='viewers__container'>
         <div className='viewers__container__item'>
-          <div className='viewers__container__item__image'>
-            <img
-              src='https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60'
-              alt=''
-            />
-          </div>
+          <img src='/assets/images/viewers-disney.png' alt='' />
+        </div>
+        <div className='viewers__container__item'>
+          <img src='/assets/images/viewers-marvel.png' alt='' />
+        </div>
+        <div className='viewers__container__item'>
+          <img src='/assets/images/viewers-national.png' alt='' />
+        </div>
+        <div className='viewers__container__item'>
+          <img src='/assets/images/viewers-pixar.png' alt='' />
+        </div>
+        <div className='viewers__container__item'>
+          <img src='/assets/images/viewers-starwars.png' alt='' />
         </div>
       </div>
     </div>
