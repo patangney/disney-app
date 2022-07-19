@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react'
-import ImageSlider from '../Slider/ImageSlider'
+import {ImageSlider, Viewers} from '../index.js'
 
 function Home() {
   return (
