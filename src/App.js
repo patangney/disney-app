@@ -1,16 +1,16 @@
-import React, {Fragment} from 'react';
-import {Header, Home} from './components/index.js';
+import React, { Fragment } from 'react'
+import { BrowserRouter as Router } from 'react-router-dom'
+import { Header, Home } from './components/index.js'
 
-
-function App() {
+function App () {
   return (
     <Fragment>
-
-      <Header />
-      <Home />
-    
+      <Router>
+        <Header />
+        <Home />
+      </Router>
     </Fragment>
-  );
+  )
 }
 
-export default App;
+export default App
