@@ -1,5 +1,6 @@
 .nav {    
-    background-color: $primary-bg;  
+    background-color: $primary-bg; 
+     
     display: flex;    
     height: $header-height;
 
@@ -18,9 +19,13 @@
         }
     }
 
-    &__logo {        
+    &__logo {  
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: auto;
-        height: 70px;      
+        height: 60px;   
+        margin-top: 6px;   
         padding: 0 36px; 
 
 
