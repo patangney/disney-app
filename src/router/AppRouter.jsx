@@ -1,6 +1,6 @@
 import React, { Fragment} from 'react'
 import { Routes, Route } from 'react-router-dom'
-import {Home, Details} from '../components/index.js'
+import {Home, Details, Login} from '../components/index.js'
 
 const AppRouter = () => {
   return (
@@ -8,6 +8,7 @@ const AppRouter = () => {
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/details" element={<Details />} />
+            <Route path="/login" element={<Login />} />
         </Routes>
     </Fragment>
   )

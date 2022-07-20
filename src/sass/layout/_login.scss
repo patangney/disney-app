@@ -1,0 +1,55 @@
+.login {
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;   
+           
+        @include container;
+        @include bgImageLogin;
+    }
+
+    &__CTA {
+        max-width: 650px;  
+
+        p {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            @include subtitle;
+            
+        }
+        
+
+        a {
+            margin: 1em 1em 1em 0;
+            display: flex;
+            text-decoration: none;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            letter-spacing: 1.8px;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            &:hover {
+                color: #fff;
+                background: $primary-blue-dark
+            }
+            
+            border-radius: 4px;
+            background-color: #0063e5;
+            height: 56px;
+            
+
+        }
+
+        img {
+            width: 100%;
+            
+
+        }
+    }
+}
+

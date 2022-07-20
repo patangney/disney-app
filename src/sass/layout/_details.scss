@@ -29,8 +29,8 @@
     }
 
     &__image-title {
-        height: 30vh;
-        width: 35vw;
+        height: 35vh;
+        width: 18vw;
         min-height: 170px;
         min-width: 200px;
 
@@ -61,18 +61,13 @@
     }
 
     &__image-overlay {
-        
-        background-image: radial-gradient(farthest-side at 73% 21%, transparent, rgb(26, 29, 41));
-        position: absolute;
-        inset: 0px;
-        
+        @include overlay;
     }
 
     &__controls, button {
         display: flex;
         border-radius: 4px;
-        font-size: 15px;
-        display: flex;
+        font-size: 15px;        
         align-items: center;
         height: 56px;
         border: none;
@@ -110,7 +105,7 @@
             border: 1px solid rgb(249, 249, 249) !important;
             
             position: relative;
-            background-color: rgba(0, 0, 0, 0.5);
+            background-color: rgba(0, 0, 0, 0.237);
 
             
             img {
@@ -138,7 +133,7 @@
             border: 1px solid rgb(249, 249, 249) !important;
             
             position: relative;
-            background-color: rgba(0, 0, 0, 0.5);
+            background-color: rgba(0, 0, 0, 0.237);
 
             
             img {
